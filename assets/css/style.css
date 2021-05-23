@@ -19,10 +19,10 @@
 .header h1{
     font-weight: 600;
 }
-.header div img{
-    /*width: 20em;
-    height: 20em;*/
-}
+/*.header div img{
+    width: 20em;
+    height: 20em;
+}*/
 
 /* SECTION BUSQUEDA */
 .busqueda{
@@ -34,6 +34,29 @@
 }
 
 /* SECTION RESULTADOS */
+.resultados{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    text-align: center;
+    display: none;
+}
+.resultados h3{
+    margin-bottom: 2em;
+    font-weight: 600;
+}
+.resultados .card{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* SECTION ESTADISTICAS */
+.estadisticas{
+    margin-bottom: 5em;
+}
+#chartContainer{
+    height: 300px;
+    width: 100%;
+}
 
 /* FOOTER */
 .footer{
