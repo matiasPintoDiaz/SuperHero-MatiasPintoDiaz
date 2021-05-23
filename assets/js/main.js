@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    //alert("Funcionaa!"); 
+    alert("Prueba módulo II: Encuentra tu SuperHero!"); 
+    alert("Debes obtener token en API https://www.superheroapi.com/");
+    alert("Luego agregarlo a 'function peticionApi()'");
 
     //Se agrega evento al botón Buscar
     //$('form').submit(funtion(event){
@@ -37,7 +39,8 @@ $(document).ready(function(){
 
         $.ajax({
             type: 'GET',
-            url: `https://superheroapi.com/api.php/10226909369863490/${heroe}`,
+            /* INGRESAR TOKEN EN 'TOKEN_API' */
+            url: `https://superheroapi.com/api.php/TOKEN_API/${heroe}`,
             dataType: 'json',
             success: function(data){
                 console.log(data.name);
